@@ -1,0 +1,26 @@
+.button-gray-container {
+  cursor: pointer;
+  height: 32px;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.button-gray-container:hover {
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: var(--dl-color-gray-900);
+}
+
+.button-gray-text {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+  user-select: none;
+}
+

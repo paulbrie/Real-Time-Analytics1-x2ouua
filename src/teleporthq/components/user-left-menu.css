@@ -1,0 +1,43 @@
+.user-left-menu-container {
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+.user-left-menu-container1 {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--dl-radius-radius-round);
+  background-size: cover;
+  background-image: url("../../../public/playground_assets/frame 1.png");
+}
+.user-left-menu-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.user-left-menu-image {
+  width: 100px;
+  height: 100px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.user-left-menu-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.user-left-menu-text1 {
+  color: var(--dl-color-theme-lightblue);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 479px) {
+  .user-left-menu-image {
+    border-radius: var(--dl-radius-radius-round);
+  }
+}

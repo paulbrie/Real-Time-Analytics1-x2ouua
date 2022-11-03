@@ -1,0 +1,11 @@
+.user-icon24-container {
+  display: flex;
+  position: relative;
+}
+.user-icon24-image {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: var(--dl-space-space-unit);
+}

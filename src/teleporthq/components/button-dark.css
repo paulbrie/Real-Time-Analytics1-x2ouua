@@ -1,0 +1,18 @@
+.button-dark-container {
+  cursor: pointer;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: var(--dl-color-theme-buttondrak);
+}
+.button-dark-text {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.button-dark-root-class-name {
+  margin-right: 16px;
+}
